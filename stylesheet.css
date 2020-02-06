@@ -1,0 +1,41 @@
+.test{
+    width: 334px;
+    height: 387px;
+    position: relative;
+    background-image: url(img4.png);
+    background-repeat: no-repeat;
+}
+
+.test-text-container{
+    width: 334px;
+    height: 387px;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.test-text-container::after{
+    content: "アームストロングのカウチ入荷";
+    color: rgba(255, 255, 255, 1);
+    width: 334px;
+    height: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 387px;
+    transition: all 0.5s;
+}
+
+.test-text-container:hover::after{
+    content: "アームストロングのカウチ入荷";
+    color: rgba(255, 255, 255, 1);
+    align-items: center;
+    justify-content: center;
+    height: 387px;
+    position: absolute;
+    top: 0px;
+}
