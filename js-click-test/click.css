@@ -1,0 +1,25 @@
+.check{
+    display: none;
+}
+
+.text{
+    transition-property: opacity;
+    transition-duration: 0.3s;
+    opacity: 0;
+}
+
+.text.isShow{
+    opacity: 1;
+}
+
+.fas{
+    margin-left: 30px;
+    color: #00000034;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.fas.isShow{
+    transform: matrix(-1, 0, 0, -1, 0, 0);
+}
