@@ -83,15 +83,12 @@
         font-weight: 600;
         color: #FFFFFF;
         line-height: 16px;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
     }
 
     .humberger{
-        top: 0px;
+        top: 14px;
         left: 85%;
-        position: relative;
+        position: absolute;
         width: 36px;
     }
 
