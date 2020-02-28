@@ -15,3 +15,12 @@ check2.onclick = () => {
     text2.classList.toggle("open");
     arrow2.classList.toggle("open");
 };
+
+const check3 = document.getElementById("check3");
+const text3 = document.getElementById("text3");
+const arrow3 = document.getElementById("arrow3");
+
+check3.onclick = () => {
+    text3.classList.toggle("open");
+    arrow3.classList.toggle("open");
+};
