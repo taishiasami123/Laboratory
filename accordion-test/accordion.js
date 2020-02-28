@@ -24,3 +24,21 @@ check3.onclick = () => {
     text3.classList.toggle("open");
     arrow3.classList.toggle("open");
 };
+
+const check4 = document.getElementById("check4");
+const text4 = document.getElementById("text4");
+const arrow4 = document.getElementById("arrow4");
+
+check4.onclick = () => {
+    text4.classList.toggle("open");
+    arrow4.classList.toggle("open");
+};
+
+const check5 = document.getElementById("check5");
+const text5 = document.getElementById("text5");
+const arrow5 = document.getElementById("arrow5");
+
+check5.onclick = () => {
+    text5.classList.toggle("open");
+    arrow5.classList.toggle("open");
+};
